@@ -1,0 +1,75 @@
+/* Para pantallas pequeñas */
+@media (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    text-align: right; /* Alinea el contenido del nav a la derecha */
+    background-color: rgb(88, 83, 83);
+    padding: 2%;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline-block; /* Hace que los elementos li estén en línea */
+    margin-left: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e2dbdb; /* Cambia el color del texto del enlace */
+    font-weight: bold;
+   
+}
+
+nav ul li a:hover {
+    color: #ed2626; /* Cambia el color al pasar el ratón */    
+
+}
+.tit{
+    text-align: center;
+}
+
+.img{
+    align-items: center;
+    padding-left: 0%;
+}
+
+.parr{
+    text-align: center;
+    color: #ed2626;
+}
+
+.complete{
+    align-items: center;
+    border-radius: 10%;
+    display: flex;
+    font-size: 20px;
+}
+
+.foot {
+    display: flex; /* Coloca los elementos en línea */
+    justify-content: center; /*centrar los elementos*/
+    gap: 40px;
+    background-color: rgb(179, 74, 74);
+}
+
+.redes{
+    text-align: center;
+}
+
+
